@@ -1,6 +1,14 @@
 [package]
-name = "mdbook-frontmatter"
+name = "process-frontmatter"
 version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+mdbook = "0.4.40"
+pulldown-cmark = "0.11.0"
+pulldown-cmark-to-cmark = "15.0.1"
+regex = "1.10.5"
+semver = "1.0.23"
+serde = { version = "1.0.204", features = ["derive"] }
+serde_json = "1.0.121"
+toml = "0.5.11"                                        # match mdbook
